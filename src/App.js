@@ -68,7 +68,7 @@ const App = () => {
               View My Work
             </button>
             <a 
-              href="/Ankitha_H_A_CV.pdf"
+              href="/Ankitha_H_A_CV_Final.pdf"
               download
               className="btn-secondary"
               style={{ textDecoration: 'none' }}
