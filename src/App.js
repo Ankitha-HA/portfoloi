@@ -67,13 +67,15 @@ const App = () => {
             >
               View My Work
             </button>
-            <button 
-              onClick={() => window.open('mailto:hankitha4@gmail.com')}
+            <a 
+              href="/Ankitha_H_A_CV.pdf"
+              download
               className="btn-secondary"
+              style={{ textDecoration: 'none' }}
             >
-              <Mail size={20} className="button-icon" />
-              Contact Me
-            </button>
+              <Download size={20} className="button-icon" />
+              Download CV
+            </a>
           </div>
         </div>
       </section>
